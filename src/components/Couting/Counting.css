@@ -1,0 +1,10 @@
+.counting-container {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 10px 5px 5px 10px rgba(202, 200, 200, 0.336);
+  padding: 20px 0;
+}
+
+.number {
+  color: #1f1f52;
+}

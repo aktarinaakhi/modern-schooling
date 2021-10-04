@@ -1,0 +1,18 @@
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  /* background-color: black; */
+}
+.course {
+  display: flex;
+  margin-top: 20px;
+}
+.course-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.course-details {
+  margin-left: 40px;
+  text-align: left;
+}

@@ -1,0 +1,14 @@
+.banner-img {
+  height: 800px;
+}
+.banner {
+  background-color: rgba(128, 128, 128, 0.342);
+  /* color: white; */
+}
+.banner-title {
+  margin-top: 10px;
+  font-size: 80px;
+}
+.info {
+  margin-top: 1px;
+}

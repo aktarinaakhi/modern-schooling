@@ -7,6 +7,8 @@ import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
+import Shop from './components/Shop/Shop';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -14,22 +16,22 @@ function App() {
       <BrowserRouter>
         <Header></Header>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/home">
+          <Route exact path="/home">
             <Home></Home>
           </Route>
-          <Route path="/services">
+          <Route exact path="/services">
             <Services></Services>
           </Route>
-          <Route path="/shop">
-            <Services></Services>
+          <Route exact path="/shop">
+            <Shop></Shop>
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About></About>
           </Route>
-          <Route path="*">
+          <Route exact path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>

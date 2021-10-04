@@ -17,9 +17,9 @@ const Header = () => {
                 <Link className="navbar" to="/home">Shop</Link>
                 <Link className="navbar" to="/about">About us</Link>
                 <FontAwesomeIcon className="nav-icon" icon={faShoppingCart} />
-                <input className="ms-3" placeholder="Search" type="text" />
-
+                <input placeholder="Search" type="text" />
             </nav>
+
         </div>
     );
 };
