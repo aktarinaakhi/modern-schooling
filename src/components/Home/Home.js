@@ -23,7 +23,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Counting></Counting>
-            <h2 className="my-5 py-5">Latest featured news </h2>
+            <h1 className="my-5 py-5">Latest <span className="span-tag">featured</span> Courses </h1>
             <div className="course-container">
                 {
                     courses.slice(0, 4).map(course => <Course
@@ -32,13 +32,6 @@ const Home = () => {
                     >
                     </Course>)
                 }
-                {/* {
-                    courses.map(course => <Services
-                        key={course.id}
-                        course={course}
-                    >
-                    </Services>)
-                } */}
             </div>
 
 

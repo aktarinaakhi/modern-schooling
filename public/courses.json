@@ -5,7 +5,9 @@
     "img": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": 30,
     "Lesson": 12,
-    "student": 946
+    "student": 946,
+    "contribution": "General Director",
+    "contributor" : "Merrie Lewis"
   },
   {
     "id": 2,
@@ -13,15 +15,19 @@
     "img": "https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": "Free",
     "Lesson": 53,
-    "student": 1946
+    "student": 1946,
+    "contribution": "CEO & Chief Manager",
+    "contributor" : "Mariana Buenos"
   },
   {
     "id": 3,
-    "name": "C++ Course for everyone",
+    "name": "C++ Course for everyone with Object oriented programming",
     "img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": 35,
     "Lesson": 27,
-    "student": 346
+    "student": 346,
+    "contribution": "Course Researcher",
+    "contributor" : "Parks Missie"
   },
   {
     "id": 4,
@@ -29,7 +35,9 @@
     "img": "https://images.unsplash.com/photo-1587614297696-d150ef162d88?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": 40,
     "Lesson": 112,
-    "student": 3940
+    "student": 3940,
+    "contribution": "Linguistic Mentor",
+    "contributor" : "Smiley Fords"
   },
   {
     "id": 5,
@@ -37,7 +45,9 @@
     "img": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": "Free",
     "Lesson": 52,
-    "student": 554
+    "student": 554,
+    "contribution": "Lifestyle Inspirer",
+    "contributor" : "Smoonz Rotley"
   },
   {
     "id": 6,
@@ -45,7 +55,9 @@
     "img": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": 50,
     "Lesson": 312,
-    "student": 1946
+    "student": 1946,
+    "contribution": "Bill Prad",
+    "contributor" : "Computer Engineer"
   },
   {
     "id": 7,
@@ -53,7 +65,9 @@
     "img": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": 20,
     "Lesson": 100,
-    "student": 2349
+    "student": 2349,
+    "contribution": "Graphic Designer",
+    "contributor" : "Dora Floral"
   },
   {
     "id": 8,
@@ -61,15 +75,19 @@
     "img": "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVtb3RlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": 60,
     "Lesson": 223,
-    "student": 1946
+    "student": 1946,
+    "contribution": "Programmer",
+    "contributor" : "Leo Bean"
   },
   {
     "id": 9,
-    "name": "c##",
+    "name": "Open programming courses for everyone : oop",
     "img": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29saW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": "Free",
     "Lesson": 70,
-    "student": 456
+    "student": 456,
+    "contribution": "Marketing",
+    "contributor" : "sofia Jaman"
   },
   {
     "id": 10,
@@ -77,7 +95,9 @@
     "img": "https://images.unsplash.com/photo-1613186420419-868111e7ac07?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2Nob29saW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": 44,
     "Lesson": 954,
-    "student": 3546
+    "student": 3546,
+    "contribution": "OOP instructor",
+    "contributor" : "binail sin"
   },
   {
     "id": 11,
@@ -85,6 +105,18 @@
     "img": "https://images.unsplash.com/photo-1585314293966-b1d86e25636a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNjaG9vbGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     "price": "Free",
     "Lesson": 312,
-    "student": 5946
+    "student": 5946,
+    "contribution": "App Developer",
+    "contributor" : "flury moon"
+  },
+  {
+    "id": 12,
+    "name": "Data structure analysis and design and computer organization",
+    "img": "https://images.unsplash.com/photo-1585314293966-b1d86e25636a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNjaG9vbGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "price": "Free",
+    "Lesson": 312,
+    "student": 5946,
+    "contribution": "Web Developer",
+    "contributor" : "luerry mohan"
   }
 ]

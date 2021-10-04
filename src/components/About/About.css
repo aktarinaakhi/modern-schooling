@@ -1,0 +1,9 @@
+.people-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  background-color: #f5f7fa;
+}
+.span-tag {
+  color: tomato;
+}

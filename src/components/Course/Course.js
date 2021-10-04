@@ -8,7 +8,7 @@ const Course = (props) => {
     // console.log(props.course);
     return (
 
-        <div className="course">
+        <div className="course m-5">
             <div className="course-img">
                 <img src={img} alt="" />
             </div>

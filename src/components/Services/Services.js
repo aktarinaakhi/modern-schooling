@@ -1,11 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import AllCourses from '../AllCourses/AllCourses';
 
-const Services = (props) => {
-    // const { name, img, price, Lesson, student } = props.course;
+const Services = () => {
+    const [courses, setCourses] = useState([]);
 
+    useEffect(() => {
+
+        fetch('/Courses.json')
+            .then(res => res.json())
+            .then(data => setCourses(data));
+    }, [])
     return (
         <div>
-            <h2> this is services </h2>
+            <h2 className="mt-5"> Latest featured Courses </h2>
+            <p>CHOOSE WHERE YOU'D LIKE TO BEGIN</p>
+            <div className="course-container">
+                {
+                    courses.map(course => <AllCourses
+
+                        key={course.id}
+                        course={course}
+                    >
+                    </AllCourses>)
+                }
+            </div>
         </div>
     );
 };

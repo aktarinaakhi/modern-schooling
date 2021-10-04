@@ -1,5 +1,6 @@
 .course-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* background-color: black; */
+  background-color: #f5f7fa;
+  justify-items: center;
 }
