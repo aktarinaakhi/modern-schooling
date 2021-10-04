@@ -5,8 +5,6 @@ import image2 from "../../images/banner7.jpg"
 import image3 from "../../images/banner8.jpg"
 import "./Banner.css"
 
-
-
 const Banner = () => {
     return (
         <div>
@@ -42,7 +40,7 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption className="banner">
-                        <h1 className="banner-title">Lets Do For SUccess</h1>
+                        <h1 className="banner-title">Lets Do For Success</h1>
                         <h4>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>

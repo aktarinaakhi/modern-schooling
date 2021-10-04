@@ -10,8 +10,8 @@
   margin-right: 280px;
 }
 .self img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
 }
 .latest-blog {
@@ -23,4 +23,6 @@
 }
 .latest-blog img {
   border-radius: 10px;
+  height: 350px;
+  width: 500px;
 }
