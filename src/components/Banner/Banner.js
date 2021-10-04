@@ -30,7 +30,7 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption className="banner">
-                        <h1 className="banner-title">Second slide label</h1>
+                        <h1 className="banner-title">Make Your Dream</h1>
                         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -42,7 +42,7 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption className="banner">
-                        <h1 className="banner-title">Third slide label</h1>
+                        <h1 className="banner-title">Lets Do For SUccess</h1>
                         <h4>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
