@@ -14,10 +14,10 @@ const Header = () => {
             <nav>
                 <Link className="navbar" to="/home">Home</Link>
                 <Link className="navbar" to="/services">Services</Link>
-                <Link className="navbar" to="/home">Shop</Link>
+                <Link className="navbar" to="/blogs">Blogs</Link>
                 <Link className="navbar" to="/about">About us</Link>
+                <input className="input-field" placeholder="Search" type="text" />
                 <FontAwesomeIcon className="nav-icon" icon={faShoppingCart} />
-                <input placeholder="Search" type="text" />
             </nav>
 
         </div>

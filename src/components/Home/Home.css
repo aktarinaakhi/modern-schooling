@@ -4,3 +4,15 @@
   background-color: #f5f7fa;
   justify-items: center;
 }
+.button-div {
+  background-color: #f5f7fa;
+  padding-bottom: 50px;
+}
+.button {
+  background-color: tomato;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}

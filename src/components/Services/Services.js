@@ -12,12 +12,11 @@ const Services = () => {
     }, [])
     return (
         <div>
-            <h2 className="mt-5"> Latest featured Courses </h2>
-            <p>CHOOSE WHERE YOU'D LIKE TO BEGIN</p>
+            <h2 className="mt-5"> Latest featured <span className="span-tag">Courses</span> </h2>
+            <p className="mb-5">CHOOSE WHERE YOU'D LIKE TO BEGIN</p>
             <div className="course-container">
                 {
                     courses.map(course => <AllCourses
-
                         key={course.id}
                         course={course}
                     >

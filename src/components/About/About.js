@@ -10,18 +10,18 @@ const About = () => {
         fetch('/people.json')
             .then(res => res.json())
             .then(data => setPeoples(data));
-    }, [peoples])
-    // console.log(peoples);
+    }, [peoples]);
+
     return (
         <div>
             <h1 className="mt-5"> Whose <span className="span-tag">Inspirations</span> You Love </h1>
-            <p>THE GUYS BEHIND THE CURTAINS</p>
+            <p className="mb-5">THE GUYS BEHIND THE CURTAINS</p>
             <div className="people-container">
                 {
                     peoples.map(people => <Peoples
+                        key={people.id}
                         people={people}
                     >
-
                     </Peoples>)
                 }
             </div>

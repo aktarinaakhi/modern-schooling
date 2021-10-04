@@ -1,0 +1,26 @@
+.latest-blog-container {
+  background-color: whitesmoke;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: centers;
+}
+.blog-title {
+  margin-right: 280px;
+}
+.self img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.latest-blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+  /* align-items: center; */
+}
+.latest-blog img {
+  border-radius: 10px;
+}

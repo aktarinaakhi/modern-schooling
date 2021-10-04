@@ -7,8 +7,8 @@ import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
-import Shop from './components/Shop/Shop';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -25,8 +25,8 @@ function App() {
           <Route exact path="/services">
             <Services></Services>
           </Route>
-          <Route exact path="/shop">
-            <Shop></Shop>
+          <Route exact path="/blogs">
+            <Blogs></Blogs>
           </Route>
           <Route exact path="/about">
             <About></About>

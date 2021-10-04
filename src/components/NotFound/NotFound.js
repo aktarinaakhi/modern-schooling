@@ -1,9 +1,11 @@
 import React from 'react';
+import "./NotFound.css"
 
 const NotFound = () => {
     return (
-        <div>
-            <h2> not found 404 </h2>
+        <div className="not-found">
+            <h1 className="not-found-num">404 </h1>
+            <h1>The page are not availabe that you are searching</h1>
         </div>
     );
 };

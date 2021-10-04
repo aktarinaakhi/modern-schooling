@@ -14,7 +14,6 @@ const AllCourses = (props) => {
                 <p>Lesson : {Lesson}</p>
                 <p>Students : {student}</p>
             </div>
-
         </div>
 
     );
