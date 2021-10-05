@@ -16,6 +16,7 @@ const Header = () => {
                 <Link className="navbar" to="/services">Services</Link>
                 <Link className="navbar" to="/blogs">Blogs</Link>
                 <Link className="navbar" to="/about">About us</Link>
+                <Link className="navbar" to="/contact">Contact</Link>
                 <input className="input-field" placeholder="Search" type="text" />
                 <FontAwesomeIcon className="nav-icon" icon={faShoppingCart} />
             </nav>

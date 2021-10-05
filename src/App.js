@@ -9,6 +9,7 @@ import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Blogs from './components/Blogs/Blogs';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About></About>
+          </Route>
+          <Route exact path="/contact">
+            <Contact></Contact>
           </Route>
           <Route exact path="*">
             <NotFound></NotFound>

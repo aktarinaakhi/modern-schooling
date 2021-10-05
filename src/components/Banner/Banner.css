@@ -11,3 +11,9 @@
 .info {
   margin-top: 1px;
 }
+
+@media screen and (max-width: 688px) {
+  .banner {
+    display: none;
+  }
+}

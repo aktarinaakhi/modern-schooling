@@ -25,3 +25,8 @@ nav {
 .input-field {
   padding: 0 50px;
 }
+@media screen and (max-width: 688px) {
+  nav {
+    display: block;
+  }
+}

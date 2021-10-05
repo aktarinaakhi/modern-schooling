@@ -4,3 +4,8 @@
   box-shadow: 10px 10px 10px 10px rgba(202, 200, 200, 0.336);
   padding: 20px 0;
 }
+@media screen and (max-width: 688px) {
+  .counting-container {
+    display: block;
+  }
+}

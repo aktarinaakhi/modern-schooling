@@ -3,7 +3,7 @@ import "./Peoples.css"
 
 const Peoples = (props) => {
     const { people } = props.people;
-    
+
     return (
         <div className="people">
             <div><img src={props.people.image} alt="" /></div>

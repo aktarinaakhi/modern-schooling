@@ -11,3 +11,8 @@
   text-align: left;
   color: white;
 }
+@media screen and (max-width: 688px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}

@@ -13,6 +13,11 @@ const AllCourses = (props) => {
                 <p> $ {price}</p>
                 <p>Lesson : {Lesson}</p>
                 <p>Students : {student}</p>
+                <div>
+                    <button className="enroll me-5">View details</button>
+                    <button className="view-btn">Enroll</button>
+
+                </div>
             </div>
         </div>
 

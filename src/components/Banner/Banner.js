@@ -7,7 +7,7 @@ import "./Banner.css"
 
 const Banner = () => {
     return (
-        <div>
+        <div className="banner">
             <Carousel>
                 <Carousel.Item>
                     <img

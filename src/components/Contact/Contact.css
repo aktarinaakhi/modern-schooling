@@ -1,0 +1,14 @@
+form {
+  background-color: rgb(206, 224, 231);
+}
+.form-input {
+  padding-right: 300px;
+  margin-right: 20px;
+}
+.form-label {
+  margin-left: 20px;
+  text-align: right;
+}
+.submit-btn {
+  padding-bottom: 90px;
+}

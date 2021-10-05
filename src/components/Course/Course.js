@@ -1,14 +1,12 @@
 import React from 'react';
-// import { CardGroup, Card } from 'react-bootstrap';
 import "./Course.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Course = (props) => {
     const { name, img, price, Lesson, student } = props.course;
-    // console.log(props.course);
     return (
 
-        <div className="">
+        <div>
             <div className="course m-5">
                 <div className="course-img">
                     <img src={img} alt="" />
@@ -18,6 +16,11 @@ const Course = (props) => {
                     <p> $ {price}</p>
                     <p>Lesson : {Lesson}</p>
                     <p>Students : {student}</p>
+                    <div>
+                        <button className="enroll me-5">View details</button>
+                        <button className="view-btn">Enroll</button>
+
+                    </div>
                 </div>
             </div>
         </div>
